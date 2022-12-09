@@ -2,7 +2,7 @@
 int appWidth, appHeight, smallerDimension, largerDimension;
 //
 void setup() {
-  size(600, 400);
+  size(7000, 400);
   //fullScreen(); //displayWidth //displayHeight
   appWidth = width;
   appHeight = height;
