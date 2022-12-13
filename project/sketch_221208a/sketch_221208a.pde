@@ -1,21 +1,22 @@
 //Global Variables
 int appWidth, appHeight, smallerDimension, largerDimension;
-Boolean OS_On=false;
+Boolean OS_on=false;
 //
 void setup() {
-  size(7000, 400);
+  size(600, 400);
   //fullScreen(); //displayWidth //displayHeight
   appWidth = width;
   appHeight = height;
   //Assignment: Display Alogrithm from Hello World
-  display(); 
+  //display(); 
   //Display Algorithm will populate smaller and larger dimensions
   println("Smaller Dimension is", smallerDimension, "Larger Dimension is", largerDimension);
   population();
 }//End setup
 //
 void draw() {
-  if ( OS_On==true ) splashScreen(); //Os level Mouse Click
+  //Assginment #2: OS Level Mouse Click and Splash Screen
+  if ( OS_on==true ) splashScreen(); //OS Level Mouse Click
   //
 }//End draw
 //
@@ -23,7 +24,8 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
-  if ( OS_On==false ) OS_On=true;//End OS level Mouse click  
+  //OS Level Mouse Click
+  if ( OS_on==false ) OS_on=true;//End OS Level Mouse Click
 }//End mousePressed
 //
 //End MAIN Program

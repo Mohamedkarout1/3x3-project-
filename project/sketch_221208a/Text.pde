@@ -1,5 +1,6 @@
-void spaceBartext() {
+void spaceBarText() {
   rect( startX, startY, startWidth, startHeight );
-  text();
-}//
-//End text Sub prssogram
+  //text();
+}//End spaceBarText
+//
+//End Text Subprogram
