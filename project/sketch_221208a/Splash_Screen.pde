@@ -1,4 +1,3 @@
-
 float startX, startY, startWidth, startHeight;
 //
 void splashScreen() {
@@ -11,7 +10,8 @@ void splashScreen() {
    - Any other instructions
    - Splash Screen Details
    */
-   background(255); //Testing only, not night mode friendly, full BLUE
+   //background(255); //Testing only, not night mode friendly, full BLUE
+   backgroundWhiteScreen();
    spaceBarText();
 }//End splashScreen
 //
